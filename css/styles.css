@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: #aec2cfa2 ;
+    }
+/*Formatação login.html */
+div#interface {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#interface form {
+    width: 100%;
+    max-width: 450px;
+}
+
+div#interface form input {
+    margin-top: 8px;
+}
+
+div#interface form h2{
+    color: #050d22;
+    margin: 25px 0 25px 150px;
+    font-size: 32px;
+}
+
+div#interface a{
+    color: #050d22;
+    margin: 40px 0 25px 86px;
+    font-size: 18px;
+}
+
+div#interface button{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+div#interface figure.logo-legenda {
+    position: relative;
+}
+div#interface figure.logo-legenda img {
+    margin: -40px 0 15px 102px; ;
+    width: 230px;
+    height: 230px;
+}
+figure.logo-legenda figcaption{
+    font-size: 18px;
+    color: #050d22;
+    line-height: 25px;
+    margin: 0px 0px 0px 35px; 
+    position: relative;
+}
+
+/*Formatação resgiter.html*/
+
+div#register-container{
+    max-width: 1120px;
+    margin: 0 auto;
+      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#content section figure.seta-esquerda img{
+    width: 20px;
+    height: 15px;
+    margin: 0px 0px 0px -45px; 
+}
+
+div#content section a {
+    text-decoration: none;
+    text-decoration-color: #050d22
+}
+
+div#content{
+    width: 100%;
+    padding: 96px;
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+div#content section img {
+    width: 230px;
+    height: 230px;
+    margin: 0px 0px 0px 62px; 
+}
+
+div#content form h1 {
+    color: #050d22;
+    margin: 50px 0 32px;
+    font-size: 32px;
+}
+
+div#content section p {
+    
+    font-size: 18px;
+    color: #273a44;
+    line-height: 25px;
+}
+
+div#content form {
+    width: 100%;
+    max-width: 450px;
+}
+
+form#content input {
+    margin-top: 8px;
+}
+/*Formatação registerdone.html*/
+
+div#janela {
+    width: 100%;
+    max-width: 800px;
+    
+    align-content: center;
+    justify-content: center;
+
+    display: block;
+    position: absolute;
+    top: 225px;
+    left: 400px;
+}
+
+div#janela figure{ 
+    display: inline-block;
+    position: absolute;
+    margin-left: 244px;
+}
+div#janela figure img{
+    width: 20px;
+    height: 15px;
+    margin: 0px 0px 0px -45px; 
+}
+div#janela a{
+    color: #050d22;
+    margin: 40px 0 25px 0px;
+    font-size: 18px;
+}
+
+/*Formatação inicio.html junto do header-padrão pós inicio*/
+
+div#inicio-container{
+    max-width: 1120px;
+    margin: 0px 0px 0px -10px;
+}
+
+div#inicio-container header {
+    width: 100%;
+    padding: 96px;
+    
+    margin: -200px 0px 0px 8px;
+    background-color: #aec2cfa2;
+
+}
+div#inicio-container header figure#logo{
+    margin-left: -35px;
+    top: 100px;
+    position: relative;
+}
+
+div#inicio-container img#logo {
+    left: -5px;
+    top: -35px;
+    position: relative;
+    height: 120px;
+}
+
+div#inicio-container header figure#voltar{
+    height: 60px;
+    width: 80px;
+    margin-top: -50px;
+    margin-left: 1070px;
+    position: relative;
+}
+
+div#inicio-container figure img#voltar {
+    position: relative;
+    top: 10px;
+    height: 32px;
+}
+
+div#inicio-container header span{
+    top: -50px;
+    position: relative;
+    font-size: 20px;
+    margin-left: 26px;
+}
+
+div#inicio-container header a{
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-color: #050d22;
+}
+div#inicio-container header figure#sair{
+    height: 60px;
+    width: 60px;
+    margin-top: -50px;
+    margin-left: 1035px;
+    position: relative;
+}
+
+div#inicio-container header figure#sair img{
+    position: relative;
+    top: 11px;
+    height: 32px;
+    
+}
+/*Menu navegação*/
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 180px;
+}
+
+nav#menu li{
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+
+}
+nav#menu img{
+    height: 210px;
+}
+nav#menu.roupa img{
+    border: 2px solid #273a44;
+    border-radius: 5px;
+    height: 210px;
+    width: 250px;
+
+}
+div#inicio-content {
+    margin: 100px 0px 0px 300px;
+    
+}
+
+div#inicio-content figure img{   
+    padding: 5px 15px 5px 25px;
+    height: 250px;
+}
+
+div#inicio-container h1 {
+   margin: 5px 0px 5px 500px;
+   color: #050d22;
+   font-size: 36px;
+}
+/*Formatação Global*/
+form p{
+    font-size: 18px;
+    color: #273a44;
+    line-height: 25px;
+}
+
+form input {
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+}
+
+input, button, textarea {
+    font: 400 14px Roboto, sans-serif;
+}
+
+button{
+    cursor: pointer;
+    width: 500px;
+    height: 60px;
+    background: #273a44;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
+
+button:hover{
+    filter: brightness(90%);
+}

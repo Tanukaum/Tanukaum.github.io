@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Let's Sew</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    </head>
+
+<body>
+
+
+<div id="interface">
+   
+    <div className="form">
+        <figure class="logo-legenda">
+            <img src="imagem/LOGO.png" alt="Let's Sew"/>
+            <figcaption>
+                O Let's Sew é para mim, é para você, é para todos!
+            </figcaption>
+        </figure>
+        
+
+        <form method="post" action="inicio.html">
+            <h2>Faça seu logon</h2>
+
+            <input 
+                id="email" 
+                name="email" 
+                required="required" 
+                type="email" 
+                placeholder="Insira seu e-mail"
+            />
+           
+            <input
+                id="password" 
+                name="password" 
+                required="required" 
+                type="password" 
+                placeholder="Sua senha" 
+            /> 
+
+            <button className="button" type="submit" to="inicio.html">Entrar</button>
+        
+            <a href="register.html">
+                Não tem uma conta ainda? Cadastre-se agora!
+            </a>
+        </form>
+    </div>
+</div>
+</body>
+</html>
