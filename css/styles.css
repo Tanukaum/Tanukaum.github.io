@@ -62,7 +62,9 @@ figure.logo-legenda figcaption{
 /*Formatação resgiter.html*/
 
 div#register-container{
+    width: 100%;
     max-width: 1120px;
+    height: 100vh;
     margin: 0 auto;
       
     display: flex;
@@ -83,9 +85,12 @@ div#content section a {
 
 div#content{
     width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    
     padding: 96px;
    
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,7 +132,10 @@ form#content input {
 
 div#janela {
     width: 100%;
-    max-width: 800px;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    
     
     align-content: center;
     justify-content: center;
@@ -155,77 +163,102 @@ div#janela a{
 }
 
 /*Formatação inicio.html junto do header-padrão pós inicio*/
-
-div#inicio-container{
-    max-width: 1120px;
-    margin: 0px 0px 0px -10px;
+div#inicio-wrapper {
+    min-height: 100%;
+    position: relative;
 }
+div#inicio-container {
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+div#inicio-content {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 
+}
+div#inicio-content h1 {
+    margin: 25px auto;
+    text-align: center;
+}
 div#inicio-container header {
     width: 100%;
-    padding: 96px;
+    max-width: 1120px;
+    margin: 0 auto;
     
-    margin: -200px 0px 0px 8px;
-    background-color: #aec2cfa2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 150px;
+    background: #aec2cfa2;
 
 }
-div#inicio-container header figure#logo{
-    margin-left: -35px;
-    top: 100px;
+
+div#inicio-container header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    width: 100%;
+    height: 52px;
+    margin: 0 auto;
+}
+
+div#inicio-container header figure img {
     position: relative;
 }
 
-div#inicio-container img#logo {
-    left: -5px;
-    top: -35px;
+div#inicio-container header figure#logo img{
+    height: 125px;
+}
+
+div#inicio-container header figure#logo span{
+    position: absolute;
+    top: 50%;
+    left: 16%
+}
+div#inicio-container header figure#sair{
+    align-content: center;
+    vertical-align: middle;
+}
+div#inicio-container header figure#sair img {
+    padding-left: 5px;
+    position: absolute;
+    height: 25px;
+}
+
+div#inicio-container header figure#sair a {
+    align-content: center;
+    vertical-align: middle;
     position: relative;
-    height: 120px;
+    text-decoration: none;
 }
 
 div#inicio-container header figure#voltar{
-    height: 60px;
-    width: 80px;
-    margin-top: -50px;
-    margin-left: 1070px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+div#inicio-container header figure#voltar div{
+    display: inline;
+    padding: 5px;
+    margin: 7px;
+    align-content: center;
+    vertical-align: middle;
+}
+div#inicio-container header figure#voltar img {
+    position: absolute;
+    height: 25px;
 }
 
-div#inicio-container figure img#voltar {
+div#inicio-container header figure#voltar a {
     position: relative;
-    top: 10px;
-    height: 32px;
-}
-
-div#inicio-container header span{
-    top: -50px;
-    position: relative;
-    font-size: 20px;
-    margin-left: 26px;
-}
-
-div#inicio-container header a{
-    display: inline-block;
-    position: relative;
-    width: 90px;
-    top: 40px;
-    font-size: 20px;
     text-decoration: none;
-    text-decoration-color: #050d22;
-}
-div#inicio-container header figure#sair{
-    height: 60px;
-    width: 60px;
-    margin-top: -50px;
-    margin-left: 1035px;
-    position: relative;
 }
 
-div#inicio-container header figure#sair img{
-    position: relative;
-    top: 11px;
-    height: 32px;
-    
-}
 /*Menu navegação*/
 
 nav#menu ul{
@@ -249,21 +282,7 @@ nav#menu.roupa img{
     width: 250px;
 
 }
-div#inicio-content {
-    margin: 100px 0px 0px 300px;
-    
-}
 
-div#inicio-content figure img{   
-    padding: 5px 15px 5px 25px;
-    height: 250px;
-}
-
-div#inicio-container h1 {
-   margin: 5px 0px 5px 500px;
-   color: #050d22;
-   font-size: 36px;
-}
 /*Formatação Global*/
 form p{
     font-size: 18px;
