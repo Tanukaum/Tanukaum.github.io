@@ -171,17 +171,8 @@ div#inicio-container {
     padding-bottom: 80px;
     overflow: hidden;
 }
-div#inicio-content {
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
 
-}
-div#inicio-content h1 {
-    margin: 25px auto;
-    text-align: center;
-}
+
 div#inicio-container header {
     width: 100%;
     max-width: 1120px;
@@ -258,24 +249,47 @@ div#inicio-container header figure#voltar a {
     position: relative;
     text-decoration: none;
 }
+div#inicio-content {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    
+    position: relative;
+}
 
+div#inicio-content header#h1 {
+    height: 70px;
+    background: none;
+    margin: 10px auto;
+    text-align: center;
+}
+div#inicio-content header#h1 h1 {
+    margin: 2px auto;
+}
 /*Menu navegação*/
 
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
-    margin-left: 180px;
+div#inicio-content div{
+    width: 100%;
+    max-width: 900px;
+    margin: 10px auto;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: none;
+
 }
 
-nav#menu li{
-    display: inline-block;
-    margin: 20px 0px 0px 20px;
-
-}
-nav#menu img{
+div#inicio-content div#menu a img{
     height: 210px;
 }
-nav#menu.roupa img{
+
+div#inicio-content div#roupa{
+    max-width: 900px;
+    margin: 30px auto;
+}
+div#inicio-content div#roupa a img{
     border: 2px solid #273a44;
     border-radius: 5px;
     height: 210px;
@@ -283,6 +297,23 @@ nav#menu.roupa img{
 
 }
 
+div#inicio-content div#medir{
+    width: 100%;
+    max-width: 1050px;
+    margin: 10px auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+div#inicio-content div#medir img{
+    border: 2px solid #273a44;
+    border-radius: 5px;
+    height: 550px;
+    width: 500px;
+}
 /*Formatação Global*/
 form p{
     font-size: 18px;
