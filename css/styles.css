@@ -6,57 +6,60 @@ body{
     background-color: #aec2cfa2 ;
     }
 /*Formatação login.html */
-div#interface {
+div#index-wrapper {
+    min-height: 100%;
+    position: relative;
+
+}
+div#index-container {
     width: 100%;
     max-width: 1120px;
-    height: 100vh;
     margin: 0 auto;
     
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+    position: relative;
+    padding-bottom: 80px;
+    overflow: hidden;
 }
 
-div#interface form {
+div#index-container img {
+    height: 275px;
+}
+
+div#index-container div#logo{
     width: 100%;
-    max-width: 450px;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    
+    position: relative;
 }
 
-div#interface form input {
+div#index-content{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+div#index-content {
+    text-align: center;
+}
+div#index-content form {
+    margin: 0 auto;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+div#index-content form input{
     margin-top: 8px;
-}
-
-div#interface form h2{
-    color: #050d22;
-    margin: 25px 0 25px 150px;
-    font-size: 32px;
-}
-
-div#interface a{
-    color: #050d22;
-    margin: 40px 0 25px 86px;
-    font-size: 18px;
-}
-
-div#interface button{
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-div#interface figure.logo-legenda {
-    position: relative;
-}
-div#interface figure.logo-legenda img {
-    margin: -40px 0 15px 102px; ;
-    width: 230px;
-    height: 230px;
-}
-figure.logo-legenda figcaption{
-    font-size: 18px;
-    color: #050d22;
-    line-height: 25px;
-    margin: 0px 0px 0px 35px; 
-    position: relative;
 }
 
 /*Formatação resgiter.html*/
@@ -165,17 +168,14 @@ div#janela a{
 /*Formatação inicio.html junto do header-padrão pós inicio*/
 div#inicio-wrapper {
     min-height: 100%;
-    position: relative;
+    
 }
 div#inicio-container {
     padding-bottom: 80px;
     overflow: hidden;
 }
 
-div#inicio-content h1 {
-    margin: 25px auto;
-    text-align: center;
-}
+
 div#inicio-container header {
     width: 100%;
     max-width: 1120px;
@@ -269,7 +269,6 @@ div#inicio-content header#h1 {
 div#inicio-content header#h1 h1 {
     margin: 2px auto;
 }
-
 /*Menu navegação*/
 
 div#inicio-content div{
@@ -320,6 +319,7 @@ div#inicio-content div#medir img{
 }
 /*Formatação Global*/
 form p{
+    padding-left: 5px;
     font-size: 18px;
     color: #273a44;
     line-height: 25px;
@@ -331,7 +331,8 @@ form input {
     color: #333;
     border: 1px solid #dcdce6;
     border-radius: 8px;
-    padding: 0 24px;
+    text-align: center;
+    
 }
 
 input, button, textarea {
@@ -340,7 +341,7 @@ input, button, textarea {
 
 button{
     cursor: pointer;
-    width: 500px;
+    width: 100%;
     height: 60px;
     background: #273a44;
     border: 0;
