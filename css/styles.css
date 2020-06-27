@@ -172,7 +172,10 @@ div#inicio-container {
     overflow: hidden;
 }
 
-
+div#inicio-content h1 {
+    margin: 25px auto;
+    text-align: center;
+}
 div#inicio-container header {
     width: 100%;
     max-width: 1120px;
@@ -266,6 +269,7 @@ div#inicio-content header#h1 {
 div#inicio-content header#h1 h1 {
     margin: 2px auto;
 }
+
 /*Menu navegação*/
 
 div#inicio-content div{
